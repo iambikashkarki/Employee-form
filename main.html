@@ -1,0 +1,85 @@
+
+<html>
+    <head>
+        <title>Employee account</title>
+		<link rel="stylesheet" href="style.css">
+		
+    </head>
+<body>
+<div class="container">
+	<div class="header">
+		<h2>Employee form</h2>
+	</div>
+	<form id="form" class="form">
+		<div class="form-control">
+			<label for="username">Full Name</label>
+			<input type="text" placeholder="Bikash Karki" id="username" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+
+	<div>
+		<p>Select your gender</p>
+	<div class="row">
+		<div class="col">
+			<label for="huey">Male</label>
+		  <input type="radio" id="huey" name="drone" value="huey"
+			 checked>
+		  
+		</div>
+	
+		<div class="col">
+			<label for="dewey">Female</label>
+		  <input type="radio" id="dewey" name="drone" value="dewey">
+		</div>
+	
+		<div class="col">
+			<label for="louie">Other</label>
+		  <input type="radio" id="louie" name="drone" value="louie">
+		</div>
+	</div>
+	</div>
+
+
+		<div class="form-control">
+			<label for="username">Email</label>
+			<input type="email" placeholder="beekashkarki@gmail.com" id="email" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Designation</label>
+			<input type="password" placeholder="Software engineer " id="password"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">City</label>
+			<input type="password" placeholder="Kathmandu" id="password2"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Phone</label>
+			<input type="password" placeholder="9813525031" id="password2"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<label for="start">Start date:</label>
+
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2018-01-01" max="2018-12-31">
+
+		<button>Submit</button>
+	</form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
